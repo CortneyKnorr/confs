@@ -34,19 +34,6 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
 noremap <F2> :NERDTreeToggle<CR>
 
-" JVASCRIPT CONFIGS
-let g:javascript_conceal_function                  = "ƒ"
-let g:javascript_conceal_null                      = "ø"
-let g:javascript_conceal_this                      = "@"
-let g:javascript_conceal_return                    = "⇚"
-let g:javascript_conceal_undefined                 = "¿"
-let g:javascript_conceal_NaN                       = "ℕ"
-let g:javascript_conceal_prototype                 = "¶"
-let g:javascript_conceal_static                    = "•"
-let g:javascript_conceal_super                     = "Ω"
-let g:javascript_conceal_arrow_function            = "⇒"
-let g:javascript_conceal_noarg_arrow_function      = "🞅"
-let g:javascript_conceal_underscore_arrow_function = "🞅"
 
 " AIRLINE CONFIGS
 let g:airline#extensions#tabline#enabled = 1
@@ -66,7 +53,7 @@ xmap ga <Plug>(EasyAlign)
 " " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
-set conceallevel=1
+set conceallevel=4
 set foldmethod=syntax
 set autowrite
 
