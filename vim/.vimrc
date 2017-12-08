@@ -32,7 +32,7 @@ set complete=k,.
 
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 
-noremap <F2> :NERDTreeToggle<CR>
+noremap <F3> :NERDTreeToggle<CR>
 
 
 " AIRLINE CONFIGS
@@ -53,7 +53,6 @@ xmap ga <Plug>(EasyAlign)
 " " Start interactive EasyAlign for a motion/text object (e.g. gaip)
 nmap ga <Plug>(EasyAlign)
 
-set conceallevel=4
 set foldmethod=syntax
 set autowrite
 
